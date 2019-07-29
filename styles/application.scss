@@ -41,8 +41,6 @@
   &__board { 
     display: grid;
     grid-template-columns: repeat(3, max-content);
-
-
   }
 
   &__button { 
@@ -63,8 +61,7 @@
     }
     &:nth-child(2){
       border-top: 0;
-    }
-    &:nth-child(3){
+    } &:nth-child(3){
       border-top: 0;
       border-right: 0;
     }
