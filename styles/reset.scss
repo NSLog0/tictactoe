@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: Chivo, sans-serif;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--c-black);
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0,0);
+}
+
+[disabled] {
+  pointer-events: none;
+  opacity: 0.4;
+  cursor: default;
+}
+
+figure,
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+table {
+  // border-collapse: collapse;
+  border-spacing: 0;
+}
+
+svg {
+  display: block;
+  width: 100%;
+}
