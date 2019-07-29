@@ -7,3 +7,5 @@ React tictactoe game with React Hook and [Next.js](https://nextjs.org/) Framewor
 
 # Running
 ```npm run dev```
+
+then open http://localhost:3000/
